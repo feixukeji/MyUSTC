@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="添加任务"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="标题（请勿包含\\和`字符）"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="16sp"
+        tools:ignore="Autofill,HardcodedText,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="内容（请勿包含\\和`字符）"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="16sp"
+        tools:ignore="Autofill,HardcodedText,VisualLintTextFieldSize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="10dp"
+            android:text="时间："
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="14dp"
+            android:layout_weight="1"
+            android:hint="点击选择（可缺省）"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:text="颜色："
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+
+        <RadioGroup
+            android:id="@+id/task_color_group"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:checkedButton="@id/task_color_none"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/task_color_none"
+                android:layout_width="36dp"
+                android:layout_height="44dp"
+                android:buttonTint="@color/task_color_none"
+                android:contentDescription="无颜色"
+                android:gravity="center"
+                android:minWidth="36dp"
+                android:minHeight="44dp"
+                android:padding="6dp"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/task_color_blue"
+                android:layout_width="36dp"
+                android:layout_height="44dp"
+                android:buttonTint="@color/task_color_blue"
+                android:contentDescription="蓝色"
+                android:gravity="center"
+                android:minWidth="36dp"
+                android:minHeight="44dp"
+                android:padding="6dp"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/task_color_green"
+                android:layout_width="36dp"
+                android:layout_height="44dp"
+                android:buttonTint="@color/task_color_green"
+                android:contentDescription="绿色"
+                android:gravity="center"
+                android:minWidth="36dp"
+                android:minHeight="44dp"
+                android:padding="6dp"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/task_color_orange"
+                android:layout_width="36dp"
+                android:layout_height="44dp"
+                android:buttonTint="@color/task_color_orange"
+                android:contentDescription="橙色"
+                android:gravity="center"
+                android:minWidth="36dp"
+                android:minHeight="44dp"
+                android:padding="6dp"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/task_color_red"
+                android:layout_width="36dp"
+                android:layout_height="44dp"
+                android:buttonTint="@color/task_color_red"
+                android:contentDescription="红色"
+                android:gravity="center"
+                android:minWidth="36dp"
+                android:minHeight="44dp"
+                android:padding="6dp"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/task_color_purple"
+                android:layout_width="36dp"
+                android:layout_height="44dp"
+                android:buttonTint="@color/task_color_purple"
+                android:contentDescription="紫色"
+                android:gravity="center"
+                android:minWidth="36dp"
+                android:minHeight="44dp"
+                android:padding="6dp"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

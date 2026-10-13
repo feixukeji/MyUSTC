@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="theme_color">#2196F3</color>
+    <color name="additional_link">#1D5685</color>
+    <color name="background_color">#F3F3F3</color>
+    <color name="card_background_color">@color/white</color>
+    <color name="button_background_color">@color/white</color>
+    <color name="icon_color">#FFFFFFFF</color>
+    <color name="icon_color_adaptive">#FF000000</color>
+    <color name="divider_color">#E0E0E0</color>
+    <color name="card_stroke_color">#E8E8E8</color>
+    <color name="button_stroke_color">#E8E8E8</color>
+    <color name="toolbar_switch_container_color">#EEEEEE</color>
+    <color name="toolbar_switch_indicator_color">#D0D0D0</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="task_color_none">#9E9E9E</color>
+    <color name="task_color_blue">#42A5F5</color>
+    <color name="task_color_green">#66BB6A</color>
+    <color name="task_color_orange">#FFA726</color>
+    <color name="task_color_red">#EF5350</color>
+    <color name="task_color_purple">#AB47BC</color>
+</resources>

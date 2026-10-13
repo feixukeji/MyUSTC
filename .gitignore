@@ -1,0 +1,43 @@
+# Gradle and Kotlin caches
+.gradle/
+.kotlin/
+
+# Build outputs (all modules) and exported release artifacts
+build/
+/app/release/
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Local SDK paths and signing credentials
+/local.properties
+keystore.properties
+signing.properties
+*.jks
+*.keystore
+
+# Android Studio / IntelliJ local state
+# Keep shared code styles and inspection profiles under version control.
+*.iml
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules/
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/shelf/
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/deploymentTargetSelector.xml
+/.idea/deploymentTargetDropDown.xml
+/.idea/deviceManager.xml
+/.idea/runConfigurations/MyUSTC.xml
+/.vscode/
+
+# OS metadata and JVM crash dumps
+.DS_Store
+Thumbs.db
+Desktop.ini
+hs_err_pid*.log
+replay_pid*.log
+*.hprof

@@ -1,0 +1,13 @@
+# 默认忽略的文件
+/shelf/
+/workspace.xml
+/deploymentTargetSelector.xml
+copilot.*
+/appInsightsSettings.xml
+/deploymentTargetDropDown.xml
+/deviceManager.xml
+/migrations.xml
+/runConfigurations.xml
+/compiler.xml
+/encodings.xml
+/kotlinc.xml

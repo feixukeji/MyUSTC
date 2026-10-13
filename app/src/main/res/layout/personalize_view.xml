@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="个性化"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/text_auto_sync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:drawablePadding="5dp"
+        android:text="自动同步课程、考试、成绩"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="16sp"
+        app:drawableEndCompat="@drawable/ic_question"
+        tools:ignore="HardcodedText" />
+
+    <RadioGroup
+        android:id="@+id/group_auto_sync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_enable_auto_sync"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-3dp"
+            android:layout_marginEnd="-30dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="启用"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="17.5sp"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,VisualLintBounds" />
+
+        <RadioButton
+            android:id="@+id/radio_disable_auto_sync"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="-30dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="关闭"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="17.5sp"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-4dp"
+        android:text="首页每日签到"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText" />
+
+    <RadioGroup
+        android:id="@+id/group_punch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_enable_punch"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-3dp"
+            android:layout_marginEnd="-30dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="启用"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="17.5sp"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck,VisualLintBounds" />
+
+        <RadioButton
+            android:id="@+id/radio_disable_punch"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="-30dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="关闭"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="17.5sp"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-4dp"
+        android:text="深色模式"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText" />
+
+    <RadioGroup
+        android:id="@+id/group_dark_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_auto"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-3dp"
+            android:layout_marginEnd="-30dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="跟随系统"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="17.5sp"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck,VisualLintBounds" />
+
+        <RadioButton
+            android:id="@+id/radio_light"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="-30dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="浅色模式"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="17.5sp"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/radio_dark"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="-30dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="深色模式"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="17.5sp"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-4dp"
+        android:text="背景图片"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText" />
+
+    <RadioGroup
+        android:id="@+id/group_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_background_no"
+            android:layout_width="118dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="-3dp"
+            android:layout_marginEnd="-30dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="不显示"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="17.5sp"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck,VisualLintBounds" />
+
+        <RadioButton
+            android:id="@+id/radio_background_main"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="-30dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="主页面"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="17.5sp"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/radio_background_all"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="-30dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="所有页面"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="17.5sp"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/background_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="-6dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/background_alpha"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="-5dp"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="14sp" />
+
+            <SeekBar
+                android:id="@+id/background_alpha_bar"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:max="45"
+                android:min="5"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/choose_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="30dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="选择图片"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:backgroundTint="@color/theme_color"
+                app:cornerRadius="@dimen/card_corner_radius_fresh"
+                app:strokeColor="@color/card_stroke_color"
+                tools:ignore="HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/choose_background_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

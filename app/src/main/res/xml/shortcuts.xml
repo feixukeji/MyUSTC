@@ -1,0 +1,61 @@
+<?xml version ="1.0" encoding ="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_study_system"
+        android:shortcutId="StudySystem"
+        android:shortcutShortLabel="@string/study_system_text">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.feixu.myustc.WebActivity"
+            android:targetPackage="com.feixu.myustc">
+            <extra
+                android:name="text"
+                android:value="教务系统" />
+            <extra
+                android:name="name"
+                android:value="StudySystem" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_course_table"
+        android:shortcutId="CourseTable"
+        android:shortcutShortLabel="@string/course_table_text">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.feixu.myustc.CourseTableActivity"
+            android:targetPackage="com.feixu.myustc" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_exam_arrange"
+        android:shortcutId="ExamArrange"
+        android:shortcutShortLabel="@string/exam_arrange_text">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.feixu.myustc.ExamArrangeActivity"
+            android:targetPackage="com.feixu.myustc" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_ustc_email"
+        android:shortcutId="UstcEmail"
+        android:shortcutShortLabel="@string/ustc_email_text">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.feixu.myustc.WebActivity"
+            android:targetPackage="com.feixu.myustc">
+            <extra
+                android:name="text"
+                android:value="科大邮箱" />
+            <extra
+                android:name="name"
+                android:value="UstcEmail" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

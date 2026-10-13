@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">我的科大</string>
+    <string name="woke365">蜗壳365</string>
+    <string name="beian_id">浙ICP备2022018221号-2A</string>
+
+    <string name="title_one">首页</string>
+    <string name="title_two">功能</string>
+    <string name="title_three">设置</string>
+
+    <string name="study_system_text">教务系统</string>
+    <string name="course_table_text">课程表</string>
+    <string name="exam_arrange_text">考试信息</string>
+    <string name="ustc_email_text">科大邮箱</string>
+
+    <string name="error_page">file:///android_asset/error.html</string>
+
+    <string name="passport_login_url">https://id.ustc.edu.cn/cas/login</string>
+    <string name="passport_success_url">https://id.ustc.edu.cn/gate/cas-success</string>
+    <string name="study_system_url">https://jw.ustc.edu.cn/home</string>
+    <string name="study_system_login_url">https://jw.ustc.edu.cn/ucas-sso/login</string>
+    <string name="graduate_student_platform_url">https://yjs1.ustc.edu.cn/gsapp/sys/</string>
+    <string name="graduate_student_platform_login_url">https://id.ustc.edu.cn/cas/login?service=https:%2F%2Fyjs1.ustc.edu.cn%2Fgsapp%2Fsys%2Fyjsemaphome%2Fportal%2Findex.do%3FforceCas%3D1</string>
+    <string name="course_table_url">https://jw.ustc.edu.cn/for-std/course-table</string>
+    <string name="exam_arrange_url">https://jw.ustc.edu.cn/for-std/exam-arrange</string>
+    <string name="grade_sheet_url">https://jw.ustc.edu.cn/for-std/grade/sheet</string>
+    <string name="blackboard_learn_url">https://www.bb.ustc.edu.cn/</string>
+    <string name="physical_experiment_select_url">http://pems.ustc.edu.cn/</string>
+    <string name="ustc_email_login_url">https://mail.ustc.edu.cn/coremail/hxphone/#/login</string>
+
+    <string name="myustc_page_url">https://myustc.feixu.site/page/</string>
+    <string name="myustc_url">https://myustc.feixu.site/</string>
+    <string name="app_official_website">APP官网：https://myustc.feixu.site/</string>
+    <string name="qq_group">mqqopensdkapi://bizAgent/qm/qr?url=http%3A%2F%2Fqm.qq.com%2Fcgi-bin%2Fqm%2Fqr%3Ffrom%3Dapp%26p%3Dandroid%26jump_from%3Dwebapi%26k%3Dgz-LAFGsPbFM68zTd9cw8hvK-UfVaQrn</string>
+
+    <string-array name="day_of_week">
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+        <item>星期日</item>
+    </string-array>
+
+    <string-array name="unit_of_day">
+        <item>第1节</item>
+        <item>第2节</item>
+        <item>第3节</item>
+        <item>第4节</item>
+        <item>第5节</item>
+        <item>第6节</item>
+        <item>第7节</item>
+        <item>第8节</item>
+        <item>第9节</item>
+        <item>第10节</item>
+        <item>第11节</item>
+        <item>第12节</item>
+        <item>第13节</item>
+    </string-array>
+</resources>

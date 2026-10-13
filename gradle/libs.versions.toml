@@ -1,0 +1,20 @@
+[versions]
+appcompat = "1.8.0"
+asms = "1.8.7.2"
+common = "9.9.10"
+constraintlayout = "2.2.2"
+coreKtx = "1.19.0"
+coreRemoteviews = "1.1.0"
+material = "1.14.0"
+swiperefreshlayout = "1.2.0"
+#版本号查询：https://mvnrepository.com/
+
+[libraries]
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-core-remoteviews = { group = "androidx.core", name = "core-remoteviews", version.ref = "coreRemoteviews" }
+androidx-swiperefreshlayout = { group = "androidx.swiperefreshlayout", name = "swiperefreshlayout", version.ref = "swiperefreshlayout" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+common = { group = "com.umeng.umsdk", name = "common", version.ref = "common" }
+asms = { group = "com.umeng.umsdk", name = "asms", version.ref = "asms" }
